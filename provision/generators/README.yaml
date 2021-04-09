@@ -1,0 +1,42 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: tmux-github
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/tmux-github
+
+# Badges to display
+badges:
+  - name: GitHub tag (latest SemVer)
+    image: https://img.shields.io/github/v/tag/hadenlabs/tmux-github.svg?label=latest&sort=semver
+    url: https://github.com/hadenlabs/tmux-github/releases
+  - name: Lint
+    image: https://github.com/hadenlabs/tmux-github/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/tmux-github/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/tmux-github.svg
+    url: https://github.com/hadenlabs/tmux-github/issues
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/tmux-github.svg
+    url: https://github.com/hadenlabs/tmux-github/releases
+  - name: Beacon
+    image: https://ga-beacon.appspot.com/G-MZEK48EGE8/tmux-github/readme
+    url: https://github.com/hadenlabs/tmux-github
+
+# Short description of this project
+description: |-
+  tmux-github plugin for tmux
